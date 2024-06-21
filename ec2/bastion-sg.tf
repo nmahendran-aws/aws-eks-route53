@@ -9,5 +9,5 @@ module "public_bastion_sg" {
   ingress_rules       = ["ssh-tcp"]
   ingress_cidr_blocks = ["0.0.0.0/0"]
   egress_rules = ["all-all"]
-  tags = locals.common_tags
+  tags = local.common_tags
 }
