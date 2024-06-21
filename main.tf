@@ -14,3 +14,7 @@ provider "aws" {
 module "vpc-root" {
     source = "./vpc"
 }
+
+module "ec2-root" {
+    source = "./ec2"
+}
