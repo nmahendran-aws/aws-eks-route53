@@ -4,7 +4,7 @@ data "aws_ami" "amzlinux2" {
   owners = [ "amazon" ]
   filter {
     name = "name"
-    values = [ "ami-08a0d1e16fc3f61ea" ]
+    values = [ "amzn2-ami-hvm-*-gp2" ]
   }
   filter {
     name = "root-device-type"
